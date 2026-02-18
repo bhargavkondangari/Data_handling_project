@@ -11,3 +11,5 @@ for process in proc:
 
 import os
 print(os.getcwd())
+
+print(os.mkdir("testing_data_apth"))
