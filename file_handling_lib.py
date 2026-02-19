@@ -12,4 +12,8 @@ for process in proc:
 import os
 print(os.getcwd())
 
-print(os.mkdir("testing_data_apth"))
+print(os.mkdir("testing_data_path"))
+import shutil
+
+disku_use =shutil.disk_usage("./")
+print(disku_use)
