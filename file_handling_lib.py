@@ -1,4 +1,5 @@
 import psutil
+import shutil
 def print_hi(name):
     print(f'Hello, {name}!')
 
@@ -13,6 +14,6 @@ import os
 print(os.getcwd())
 
 print(os.mkdir("testing_data_path"))
-import shutil
+
 
 
